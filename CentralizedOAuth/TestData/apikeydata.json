@@ -1,0 +1,45 @@
+{
+  "_id": "1234567890",
+  "_rev": "1-1234567890",
+  "clientId": "8888888888",
+  "clientName": "Middleware API",
+  "apiKeys": [
+    {
+      "requestor": "Maestro API",
+      "apiKey": "BAC6A9FA4B4D4ED3E83CE4541950958CF71E04A6",
+      "role": "superAdmin",
+      "accessTokenExpiration": 20,
+      "rights": [
+        {
+          "method": "weather",
+          "actions": [
+            "get"
+          ]
+        }
+      ]
+    },
+    {
+      "requestor": "Test Requestor API",
+      "apiKey": "33SB70BC4DC35185A07F6A2D00517EABD3304EVR",
+      "role": "admin",
+      "accessTokenExpiration": 9999,
+      "rights": [
+        {
+          "method": "profiles",
+          "actions": [
+            "get",
+            "add",
+            "update",
+            "delete"
+          ]
+        }
+      ]
+    }
+  ],
+  "privateKey": "-----BEGIN RSA PRIVATE KEY-----MIIEowIBAAKCAQEAoT2r2y1s/BmiOSzW4mhax90NrPZY16D83ax74BxQS1r37Lw20ozK3ZoCWSnJ1vT0Fwd1wFRJ05xZku+dRPkYkWh9Kx+5+QAh7XCZM8e+8DXtxOomx7DZsBPrjw+MU0FpQltkz9Z/2YA3CDR3HQmc0F1YmTs7CQSNxD5vW1gyGgc4y306XKiWKT0B2rCxCNoZmNH2H/Y+5XlHTRVdn3yKTfJM2ga5fCQRbMxb+gP+aANF8S6SyDN1S3gW1ZtY9rXNkXmBZqWHFPJ2LmVQk+S74w+xUjpvAkPgx1o7hkQkf06wLlQRISZ1gbxcsfxYZyKTVVSHn6pPObT25aytqVLmpQIDAQABAoIBACfwyONQC1EfYGndS5Vl2CbuAPc5RqSTQk/+6+iF2vXvoL5JmSLqsU3XWoGPsmnG37fcpzRvLKJ4dk/JfyGYupc6VNcb0st1VvIkFC8ZaZjDIxTGE7kfe6z8Ijub1FzDNTm0vfIl5iGQexFTPbY5rViH5ux+GY+QSzWzaY4s+KwtfQ0KWRPNtPYXwwmtiCJAGfN3a5qitJNrMY4gSxoBa0azurkc4N8TXMKxsAHg1S+2oi6UUe52ylr3n/3wsb21RNvaknB1TFiLsHGuQMWyWxAcYky2105ZbtGCjQiFsrHqQqVtwJwWfWkAoul5idIPXtix7i4tJ0A3GZUTmH7mCXkCgYEA06R4rEEufZmt/M27tSc6pWwmLTEj40jeVTBhZEueLORbrw9qRblfBxQf2nioXQm7mltL9Nn0NiOuvuKN4spbNJ/hdFFQ8ReFRatAqpF+fnsD7jX/Ry6FOtupgOopVCHI8/RuYylwF9q3BUFN7JHgzMYsOBYGdVHgRU7LipRuqtsCgYEAwwjwdoul3BKXO8d311TUh8RRuZKY+ENCdtaACrNkKeBQ3Jp1L8uo8SVigUKE/g1SpbtQVQhBULnv9qCxsFscJEu1iQOsQD0SN1WnPkd7pIfglEIHLe1HihawBspcTPsjU1VMTlg8MVEj31a/13sp2t5/J5ONwGaUW5yp+4YzrH8CgYA1fOSujA6m2ZcaRBiDcPWmZw3C8B9kyr6+AusqQN4p9FCjjp7KHk5A6LogKcxLLzGFkjtBF3Bb2mrIfVNklMW2KA3/qqltNQeOkvhV4013w7k7k9P/dmdfd7KADS4CwEMcPJNFZmyY6sLEhjueZUPOHOuCBTb+oYGvonlYfaj2bwKBgEzs5LNNJ1EjAAVzCmCjM+SM2VMhcDZTiQ6IUh5mXTZrJFmujlQYtvzOKwkirIPry1JVDD1NsT1e6TfUb+FIPlROjD6LdVAtBldO8FUPKsRdV4YCeQRzV0ku46T6AefXEjrXJO6tvKgTAdwgQjCCgqKyKWL5vupJS3DK3Py5FP6PAoGBAM7d2P02e+oVGMKc/gHogEAcZBs+prLNfzbwHhyqA2N/GPKSR4CJYtheDOz/tK4FDP/vTWWAE2qAe8L3HUX9vttYrFvP0pJueF4c+Swp9i9/yQQY0k5pMaL0zPx0/ixLsBhm2GxEWXaZgFZzo77UH1USc33pxWUkuEjNV+RBGS8+-----END RSA PRIVATE KEY-----",
+  "publicKey": "-----BEGIN PUBLIC KEY-----MIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEAoT2r2y1s/BmiOSzW4mhax90NrPZY16D83ax74BxQS1r37Lw20ozK3ZoCWSnJ1vT0Fwd1wFRJ05xZku+dRPkYkWh9Kx+5+QAh7XCZM8e+8DXtxOomx7DZsBPrjw+MU0FpQltkz9Z/2YA3CDR3HQmc0F1YmTs7CQSNxD5vW1gyGgc4y306XKiWKT0B2rCxCNoZmNH2H/Y+5XlHTRVdn3yKTfJM2ga5fCQRbMxb+gP+aANF8S6SyDN1S3gW1ZtY9rXNkXmBZqWHFPJ2LmVQk+S74w+xUjpvAkPgx1o7hkQkf06wLlQRISZ1gbxcsfxYZyKTVVSHn6pPObT25aytqVLmpQIDAQAB-----END PUBLIC KEY-----",
+  "created": "2020-07-29T14:58:31.2578175+00:00",
+  "activeDate": "2020-07-29T14:58:31.2578175+00:00",
+  "inactiveDate": "",
+  "active": true
+}
